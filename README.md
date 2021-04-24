@@ -2,12 +2,12 @@
 
 This is a simple library for computing holograms.  It supports multiple algorithms 
 the most interesting of which is ray tracing.  The program in the ray directory is a basic 
-test of this.  The current system only ray traces spheres, since it is used for testing 
-the underlying algorithm.  The HAPI directory contains the library, which is statically 
-linked with the test programs.
+test of this.  The current system only properly ray traces spheres, since it is used for 
+testing the underlying algorithm.  The HAPI directory contains the library, which is 
+statically linked with the test programs.
 
-The two external dependencies are jansson and freeimage, you may need to change project 
-settings to correctly link to them.
+The external dependencies are jansson, freeimage, CUDA, and OptiX. You may need to 
+change project settings to correctly link to them.
 
 Each program needs a display.halo file which must be in the same directory as the .exe 
 file.  Several sample ones are included.
@@ -32,3 +32,5 @@ is packaged with CUDA and should be added to your path. It is then possible to u
 scripts for the tmesh and sphere programs, if you edit the scripts to contain the correct 
 Visual Studio and OptiX locations. The build scripts are the .bat files located in the 
 HAPI subfolder. 
+
+The ray solution in x64/Release mode was used to test this project. 
