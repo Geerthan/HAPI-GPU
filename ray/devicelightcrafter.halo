@@ -1,0 +1,13 @@
+{
+	"pixelsW" : 608,
+	"pixelsH" : 684,
+	"sizeW" : 10.8,
+	"sizeH" : 5.4,
+	"minDepth" : 7.75,
+	"maxDepth" : 8.75,
+	"left" : -0.4,
+	"right" : 0.4,
+	"top" : 0.4,
+	"bottom" : -0.4,
+	"diamond" : true
+}

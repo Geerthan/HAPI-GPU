@@ -1,0 +1,12 @@
+{
+	"pixelsW" : 1024,
+	"pixelsH" : 1024,
+	"sizeW" : 5.0,
+	"sizeH" : 5.0,
+	"minDepth" : 17.75,
+	"maxDepth" : 18.75,
+	"left" : -0.4,
+	"right" : 0.4,
+	"top" : 0.4,
+	"bottom" : -0.4
+}
